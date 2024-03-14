@@ -1,8 +1,10 @@
 # WCM_SVWC
-This repository is the implementation of object detectors used in the paper "Role of Sensing and Computer Vision in 6G Wireless Communications".
+This repository is the implementation of object detectors used in the paper "Role of Sensing and Computer Vision in 6G Wireless Communications". 
 
-# Preparation
+# Datasetpreparation
 Please download the dataset from drive.google.com and then put the data folder next to DETR and EfficientDet folders.
+The dataset consists of 104 pairs of RGB and depth images acquired from 9 distinct wireless environments including classroom, hallway, gym, and food court. 
+In each image, up to 5 people appear, each holding a cell phone.
 
 # Methods
 By running detr.py in DETR folder, we can detect humans and cell phones in the RGB images using DETR.
@@ -13,3 +15,5 @@ To evaluate the object detection results, run calc_metric.py.
 
 The codes have been tested on torch2.2.1+cuda11.8.
 
+# Results
+![](evaluation_result.png)
