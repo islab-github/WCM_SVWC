@@ -16,4 +16,4 @@ To evaluate the object detection results, run calc_metric.py.
 The codes have been tested on torch2.2.1+cuda11.8.
 
 # Results
-![](evaluation_result.png)
+![screenshot](evaluation_result.png)
