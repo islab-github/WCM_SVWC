@@ -2,7 +2,7 @@
 This repository is the implementation of object detectors used in the paper "Role of Sensing and Computer Vision in 6G Wireless Communications".
 
 # Preparation
-Please download the dataset from drive.google.com.
+Please download the dataset from drive.google.com and then put the data folder next to DETR and EfficientDet folders.
 
 # Methods
 By running detr.py in DETR folder, we can detect humans and cell phones in the RGB images using DETR.
